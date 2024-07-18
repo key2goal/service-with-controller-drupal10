@@ -1,0 +1,4 @@
+services:
+  nodestatus.publish:
+    class: Drupal\nodestatus\NodeStatusPublish
+    arguments: ['@service_container', '@entity_type.manager']

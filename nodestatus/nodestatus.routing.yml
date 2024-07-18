@@ -1,0 +1,7 @@
+nodestatus.publish:
+  path: '/nodestatus/publish'
+  defaults:
+    _title: 'Publish status'
+    _controller: '\Drupal\nodestatus\Controller\NodestatusController'
+  requirements:
+    _permission: 'access content'
